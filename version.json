@@ -1,5 +1,5 @@
 {
   "version": "2.1.0",
-  "downloadUrl": "https://github.com/YuyuetMo/robotarm-update/releases/download/v2.1.0/RobotArm.-v2.1.0.zip",
-  "releaseNotes": "v2.1.0 重磅更新\n- 集成 electron-updater 自动更新引擎\n- 启动自动检测新版本，后台静默下载\n- 下载进度实时显示（侧边栏进度条）\n- 一键安装重启，无需手动操作\n- AI 内容工厂（支持 OpenAI / Claude / DeepSeek / MIMO）\n- 评论分析 / 周报生成\n- 中英文对照模式"
+  "downloadUrl": "https://github.com/YuyuetMo/robotarm-update/releases/download/v2.1.0/robotarm-v2.1.0.zip",
+  "releaseNotes": "v2.1.0 - 集成 electron-updater 自动更新\n- 启动自动检测 GitHub Releases 新版本\n- 侧边栏实时提示 + 一键跳转下载\n- AI 内容工厂（OpenAI / Claude / DeepSeek / MIMO）\n- 评论分析 / 周报生成 / 中英文对照模式"
 }
