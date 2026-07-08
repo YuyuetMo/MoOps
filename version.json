@@ -1,6 +1,6 @@
 {
-  "version": "2.1.1",
-  "downloadUrl": "https://github.com/YuyuetMo/robotarm-update/releases/download/v2.1.0/robotarm-v2.1.1.zip",
-  "releaseNotes": "v2.1.1: 更新应用图标为头像，修复广告CSV中文表头解析，支持 Campaign / Sponsored Products 等多种报表格式",
+  "version": "2.2.0",
+  "downloadUrl": "https://github.com/YuyuetMo/MoOps/releases/download/v2.2.0/MoOps-v2.2.0-win.zip",
+  "releaseNotes": "v2.2.0: 品牌重命名为 MoOps；新增工作报告、A/B测试、Listing优化、利润计算器等页面；内容工厂目标受众支持手动输入+AI推荐；修复 MIMO API 认证与模型ID问题；重构页面自动注册系统。",
   "minVersion": "2.0.0"
 }
