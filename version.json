@@ -1,6 +1,6 @@
 {
-  "version": "2.3.3",
-  "downloadUrl": "https://github.com/YuyuetMo/MoOps/releases/download/v2.3.3/MoOps-v2.3.3-win.zip",
-  "releaseNotes": "v2.3.3: 修复侧边栏分组收起逻辑——点击已展开的分组（即使其子项正处于激活状态）也能整组收起，再次点击展开，所有大功能行为一致；同时为展开的分组加上下专属色分隔线与淡色底纹，形成清晰分区，一眼区分当前所在板块。",
+  "version": "2.3.4",
+  "downloadUrl": "https://github.com/YuyuetMo/MoOps/releases/download/v2.3.4/MoOps-v2.3.4-win.zip",
+  "releaseNotes": "v2.3.4：修复检查更新失败（因 dir 打包缺少 app-update.yml，改为在 main.js 中显式设置 GitHub feedURL）。已安装 v2.3.3 及更早版本的用户需手动下载一次 v2.3.4 覆盖安装，之后自动更新即恢复正常。",
   "minVersion": "2.0.0"
 }
