@@ -2,7 +2,7 @@
 
 > 一站式增长运营中枢：覆盖海外社媒、国内社媒（小红书 / 抖音）、Amazon、独立站（DTC），用 AI 把内容生产、数据分析、广告优化、诊断建议统一到一个工作台。
 
-![MoOps](https://img.shields.io/badge/MoOps-v2.3.0-22d3ee) ![License](https://img.shields.io/badge/license-MIT-34d399) ![Platform](https://img.shields.io/badge/platform-Windows-0078d4)
+![MoOps](https://img.shields.io/badge/MoOps-v2.3.3-22d3ee) ![License](https://img.shields.io/badge/license-MIT-34d399) ![Platform](https://img.shields.io/badge/platform-Windows-0078d4)
 
 ---
 
@@ -62,6 +62,11 @@
 ---
 
 ## 🔄 更新日志
+
+### v2.3.3 — 侧边栏分组收起修复 + 分区分隔线
+- **修复分组收起逻辑**：此前在展开分组内点开某个子项后，再点该分组标题无法收回；现已支持「再次点击整组收起」，所有大功能行为一致（无论其子项是否处于激活状态）
+- **展开分区更清晰**：展开的大功能（一级分组）现在带**上下专属色分隔线 + 淡色底纹**，形成独立「分区卡片」，与相邻板块一眼区分
+- 分隔线沿用各板块专属品牌色，分区感与色彩体系保持一致
 
 ### v2.3.2 — 侧边栏分组色彩化
 - **每个板块拥有专属品牌色**（海外社媒=天蓝、国内社媒=粉、小红书=玫红、抖音=紫、Amazon=琥珀、独立站=翠绿、周计划=绿、工作报告=靛蓝）
