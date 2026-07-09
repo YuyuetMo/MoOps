@@ -1,6 +1,6 @@
 {
-  "version": "2.3.1",
-  "downloadUrl": "https://github.com/YuyuetMo/MoOps/releases/download/v2.3.1/MoOps-v2.3.1-win.zip",
-  "releaseNotes": "v2.3.1: 修复界面版本号显示错误（硬编码 v2.2 现在动态读取）；侧边栏精简——默认仅展开当前所在分组、其余折叠，顶部新增功能搜索框，输入即筛选。",
+  "version": "2.3.2",
+  "downloadUrl": "https://github.com/YuyuetMo/MoOps/releases/download/v2.3.2/MoOps-v2.3.2-win.zip",
+  "releaseNotes": "v2.3.2: 侧边栏分组色彩化——每个板块拥有专属品牌色，点开分组后该分组标题加粗并变为专属色、子栏目出现同色标识线，激活项也用该色，一眼区分当前所在板块。",
   "minVersion": "2.0.0"
 }
