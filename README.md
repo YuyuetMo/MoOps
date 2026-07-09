@@ -2,7 +2,7 @@
 
 > 一站式增长运营中枢：覆盖海外社媒、国内社媒（小红书 / 抖音）、Amazon、独立站（DTC），用 AI 把内容生产、数据分析、广告优化、诊断建议统一到一个工作台。
 
-![MoOps](https://img.shields.io/badge/MoOps-v2.3.4-22d3ee) ![License](https://img.shields.io/badge/license-MIT-34d399) ![Platform](https://img.shields.io/badge/platform-Windows-0078d4)
+![MoOps](https://img.shields.io/badge/MoOps-v2.3.5-22d3ee) ![License](https://img.shields.io/badge/license-MIT-34d399) ![Platform](https://img.shields.io/badge/platform-Windows-0078d4)
 
 ---
 
@@ -62,6 +62,13 @@
 ---
 
 ## 🔄 更新日志
+
+### v2.3.5 — 彻底修复检查更新失败
+- **修复**：解决 v2.3.4 点击「检查更新」时报「Cannot find latest.yml in the latest release artifacts (404)」的问题
+- **根因**：electron-updater 连上 GitHub 后，会查找 NSIS 安装包才有的 `latest.yml` 元数据；我们用 `dir` 目标直接出 ZIP，没有该文件
+- **处理**：弃用 `electron-updater`，改在 `main.js` 中用 Node.js `https` 直接读取仓库 `version.json`，自定义 `compareVersion()` 比较版本；检测到新版后弹窗引导用户下载 ZIP 覆盖安装
+- **结果**：本地不再需要 `app-update.yml` 或 `latest.yml`，彻底摆脱 electron-updater 的元数据依赖
+- **注意**：已安装 v2.3.4 / v2.3.3 及更早版本的用户需要手动下载一次 v2.3.5 覆盖安装；升级到 v2.3.5 后「检查更新」将完全正常
 
 ### v2.3.4 — 修复自动更新检测失败
 - **修复**：解决点击「检查更新」时报「无法连接更新服务器：ENOENT: no such file or directory, app-update.yml」的问题
