@@ -1,6 +1,6 @@
 {
-  "version": "2.3.0",
-  "downloadUrl": "https://github.com/YuyuetMo/MoOps/releases/download/v2.3.0/MoOps-v2.3.0-win.zip",
-  "releaseNotes": "v2.3.0: 新增国内社媒运营（小红书笔记工厂/经营月报OCR诊断/爆款拆解/关键词SEO，抖音脚本工厂/直播话术/直播策划/视频诊断）；新增独立站运营（广告分析/SEO内容引擎/转化优化/邮件营销/数据看板）；Amazon 提升为一级分类；全站支持白天/黑夜主题切换；新增 OCR 多模态识图能力。",
+  "version": "2.3.1",
+  "downloadUrl": "https://github.com/YuyuetMo/MoOps/releases/download/v2.3.1/MoOps-v2.3.1-win.zip",
+  "releaseNotes": "v2.3.1: 修复界面版本号显示错误（硬编码 v2.2 现在动态读取）；侧边栏精简——默认仅展开当前所在分组、其余折叠，顶部新增功能搜索框，输入即筛选。",
   "minVersion": "2.0.0"
 }
