@@ -1,6 +1,6 @@
 {
-  "version": "2.3.6",
-  "downloadUrl": "https://github.com/YuyuetMo/MoOps/releases/download/v2.3.6/MoOps-v2.3.6-win.zip",
-  "releaseNotes": "v2.3.6：修复检查更新偶发 HTTP 429 限流问题。版本检测源从 raw.githubusercontent.com 切换到 JSDelivr CDN（速率限制宽松、国内访问更快）；新增 429 友好提示不再误报为网络故障；手动检查增加 30 秒节流防止频繁请求触发限流。已安装 v2.3.5 及更早版本的用户需手动下载一次 v2.3.6 覆盖安装，之后检查更新恢复正常。",
+  "version": "2.4.0",
+  "downloadUrl": "https://github.com/YuyuetMo/MoOps/releases/download/v2.4.0/MoOps-v2.4.0-win.zip",
+  "releaseNotes": "v2.4.0：SEO 内容引擎与爆款笔记拆解重大升级。① SEO 内容引擎重构：左栏扩容（批量长尾词/搜索意图/目标市场语言/自定义参数/品牌合规过滤/技术SEO开关），按内容类型切换 4 套差异化模板（博客/产品页/类目页/对比评测），统一含可读性·E-E-A-T·Meta+Alt+内链·B端CTA，输出强制带 Meta/Alt/Schema(JSON-LD) 代码块；支持批量生成、机械臂术语库、参数对比表逻辑；SERP对标与原创查重为轻量版（粘贴竞品+AI自检）。② 爆款笔记拆解重构：平台切换模板（小红书图文/短视频、抖音、海外社媒），补齐封面/标签/评论/转化四模块+标签单独提取+爆款打分+赛道仿写建议+分区复制；一键仿写联动笔记工厂、历史记录库、拆解标签一键沉淀到关键词SEO词库；记住上次关注维度+清空/字数统计；链接自动抓取走主进程通道。③ 全局 Enter 回车快捷提交：配置区输入框按回车等价点击生成按钮，空值/生成中自动拦截。已安装 v2.3.x 的用户需手动下载一次 v2.4.0 覆盖安装。",
   "minVersion": "2.0.0"
 }
